@@ -1,0 +1,45 @@
+# Non-secret sample defaults for local development.
+vip_senders:
+  - boss@company.example
+  - director@company.example
+  - client@acme.example
+  - executive@example.com
+  - finance@example.com
+
+allowlisted_domains:
+  - example.com
+  - company.example
+
+working_hours:
+  start: "09:00"
+  end: "17:00"
+
+timezone: "America/New_York"
+autonomy_level: "L0"
+
+meeting_buffer_minutes: 15
+llm_requests_per_minute: 60
+llm_daily_token_cap: 100000
+llm_daily_cost_cap_usd: 5.0
+llm_cost_per_million_tokens_usd: 3.0
+llm_max_retries: 2
+llm_backoff_base_seconds: 0.5
+meeting_priority_tiers:
+  optional: 1
+  internal_sync: 2
+  manager: 3
+  client: 4
+
+triage_weights:
+  vip_sender: 40
+  deadline_within_48h: 25
+  urgent_action: 20
+  boss_client_keyword: 10
+  thread_activity: 5
+
+boss_client_keywords:
+  - boss
+  - client
+  - customer
+  - director
+  - executive

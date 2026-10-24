@@ -1,0 +1,19 @@
+{
+  "id": "mock-email-025",
+  "category": "fyi",
+  "sender": "hr@company.example",
+  "to": [
+    "analyst@company.example"
+  ],
+  "subject": "FYI: updated holiday calendar",
+  "body": "Sharing the updated holiday calendar for planning.",
+  "headers": {
+    "Message-ID": "<mock-025@example.com>"
+  },
+  "attachments": [],
+  "received_at": "2026-10-23T06:00:00+00:00",
+  "thread_id": "thread-025",
+  "labels": [
+    "Needs Human Review"
+  ]
+}

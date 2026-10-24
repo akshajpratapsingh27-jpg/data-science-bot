@@ -1,0 +1,19 @@
+{
+  "id": "mock-email-017",
+  "category": "meeting-request",
+  "sender": "client@acme.example",
+  "to": [
+    "analyst@company.example"
+  ],
+  "subject": "Meeting request: project checkpoint",
+  "body": "Could we meet Tuesday at 10:00 ET for a project checkpoint?",
+  "headers": {
+    "Message-ID": "<mock-017@example.com>"
+  },
+  "attachments": [],
+  "received_at": "2026-10-23T14:00:00+00:00",
+  "thread_id": "thread-017",
+  "labels": [
+    "Needs Human Review"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "mock-email-022",
+  "category": "data-request",
+  "sender": "finance@company.example",
+  "to": [
+    "analyst@company.example"
+  ],
+  "subject": "Request: revenue trend analysis",
+  "body": "Can you analyze the revenue trends in the attached CSV?",
+  "headers": {
+    "Message-ID": "<mock-022@example.com>"
+  },
+  "attachments": [
+    "data/samples/dirty_sales.csv"
+  ],
+  "received_at": "2026-10-23T09:00:00+00:00",
+  "thread_id": "thread-022",
+  "labels": [
+    "Needs Human Review"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "mock-email-019",
+  "category": "meeting-request",
+  "sender": "partner@vendor.example",
+  "to": [
+    "analyst@company.example"
+  ],
+  "subject": "Meeting request: integration planning",
+  "body": "Are you available Wednesday afternoon to discuss integration milestones?",
+  "headers": {
+    "Message-ID": "<mock-019@example.com>"
+  },
+  "attachments": [],
+  "received_at": "2026-10-23T12:00:00+00:00",
+  "thread_id": "thread-019",
+  "labels": [
+    "Needs Human Review"
+  ]
+}

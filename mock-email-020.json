@@ -1,0 +1,19 @@
+{
+  "id": "mock-email-020",
+  "category": "meeting-request",
+  "sender": "team@company.example",
+  "to": [
+    "analyst@company.example"
+  ],
+  "subject": "Meeting request: analysis review",
+  "body": "Let's review the analysis and open questions on Thursday.",
+  "headers": {
+    "Message-ID": "<mock-020@example.com>"
+  },
+  "attachments": [],
+  "received_at": "2026-10-23T11:00:00+00:00",
+  "thread_id": "thread-020",
+  "labels": [
+    "Needs Human Review"
+  ]
+}

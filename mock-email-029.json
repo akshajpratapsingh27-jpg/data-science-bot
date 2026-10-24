@@ -1,0 +1,19 @@
+{
+  "id": "mock-email-029",
+  "category": "fyi",
+  "sender": "security@company.example",
+  "to": [
+    "analyst@company.example"
+  ],
+  "subject": "FYI: security training",
+  "body": "Annual security training is available in the learning portal.",
+  "headers": {
+    "Message-ID": "<mock-029@example.com>"
+  },
+  "attachments": [],
+  "received_at": "2026-10-23T02:00:00+00:00",
+  "thread_id": "thread-029",
+  "labels": [
+    "Needs Human Review"
+  ]
+}

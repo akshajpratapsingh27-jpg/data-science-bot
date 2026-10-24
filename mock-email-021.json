@@ -1,0 +1,21 @@
+{
+  "id": "mock-email-021",
+  "category": "data-request",
+  "sender": "analyst@company.example",
+  "to": [
+    "analyst@company.example"
+  ],
+  "subject": "Request: clean sales export",
+  "body": "Please clean the attached sales export and return a quality summary.",
+  "headers": {
+    "Message-ID": "<mock-021@example.com>"
+  },
+  "attachments": [
+    "data/samples/dirty_sales.csv"
+  ],
+  "received_at": "2026-10-23T10:00:00+00:00",
+  "thread_id": "thread-021",
+  "labels": [
+    "Needs Human Review"
+  ]
+}

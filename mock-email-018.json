@@ -1,0 +1,19 @@
+{
+  "id": "mock-email-018",
+  "category": "meeting-request",
+  "sender": "boss@company.example",
+  "to": [
+    "analyst@company.example"
+  ],
+  "subject": "Meeting request: weekly one-on-one",
+  "body": "Please choose a 30-minute slot this week for our one-on-one.",
+  "headers": {
+    "Message-ID": "<mock-018@example.com>"
+  },
+  "attachments": [],
+  "received_at": "2026-10-23T13:00:00+00:00",
+  "thread_id": "thread-018",
+  "labels": [
+    "Needs Human Review"
+  ]
+}

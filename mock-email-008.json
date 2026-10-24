@@ -1,0 +1,20 @@
+{
+  "id": "mock-email-008",
+  "category": "promotional",
+  "sender": "offers8@newsletter.example",
+  "to": [
+    "analyst@company.example"
+  ],
+  "subject": "Save 80% on your next order",
+  "body": "A limited-time offer is available. Manage your subscription preferences anytime.",
+  "headers": {
+    "Message-ID": "<promo-8@newsletter.example>",
+    "List-Unsubscribe": "<mailto:unsubscribe@newsletter.example>"
+  },
+  "attachments": [],
+  "received_at": "2026-10-23T23:00:00+00:00",
+  "thread_id": "thread-008",
+  "labels": [
+    "Quarantine/Promo"
+  ]
+}

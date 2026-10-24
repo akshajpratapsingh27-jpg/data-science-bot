@@ -1,0 +1,19 @@
+{
+  "id": "mock-email-030",
+  "category": "fyi",
+  "sender": "team@company.example",
+  "to": [
+    "analyst@company.example"
+  ],
+  "subject": "FYI: team lunch details",
+  "body": "The team lunch is scheduled for next Wednesday.",
+  "headers": {
+    "Message-ID": "<mock-030@example.com>"
+  },
+  "attachments": [],
+  "received_at": "2026-10-23T01:00:00+00:00",
+  "thread_id": "thread-030",
+  "labels": [
+    "Needs Human Review"
+  ]
+}

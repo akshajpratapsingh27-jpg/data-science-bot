@@ -1,0 +1,19 @@
+{
+  "id": "mock-email-009",
+  "category": "phishing-like",
+  "sender": "security-alert1@external.example",
+  "to": [
+    "analyst@company.example"
+  ],
+  "subject": "Immediate account verification required",
+  "body": "Your account needs urgent verification. Open the attached sign-in page to avoid suspension.",
+  "headers": {
+    "Message-ID": "<mock-009@example.com>"
+  },
+  "attachments": [],
+  "received_at": "2026-10-23T22:00:00+00:00",
+  "thread_id": "thread-009",
+  "labels": [
+    "Needs Human Review"
+  ]
+}

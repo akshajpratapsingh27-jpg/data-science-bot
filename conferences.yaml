@@ -1,0 +1,7 @@
+conferences:
+  - name: Data Science Summit
+    dates:
+      start: "2027-03-18"
+      end: "2027-03-20"
+    abstract_deadline: "2027-01-15"
+    registration_deadline: "2027-03-01"
