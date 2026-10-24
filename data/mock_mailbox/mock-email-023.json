@@ -1,0 +1,21 @@
+{
+  "id": "mock-email-023",
+  "category": "data-request",
+  "sender": "client@acme.example",
+  "to": [
+    "analyst@company.example"
+  ],
+  "subject": "Request: segment performance",
+  "body": "Please compare segment performance using the attached data sample.",
+  "headers": {
+    "Message-ID": "<mock-023@example.com>"
+  },
+  "attachments": [
+    "data/samples/dirty_sales.csv"
+  ],
+  "received_at": "2026-10-23T08:00:00+00:00",
+  "thread_id": "thread-023",
+  "labels": [
+    "Needs Human Review"
+  ]
+}

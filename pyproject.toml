@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dsbot"
+version = "0.1.0"
+description = "Automated data scientist employee bot"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.0",
+    "email-validator>=2.0",
+    "pandas>=2.0",
+    "openpyxl>=3.1",
+    "xlsxwriter>=3.1",
+    "python-docx>=1.1",
+    "matplotlib>=3.7",
+    "pytest>=7.4",
+    "typer>=0.9",
+    "apscheduler>=3.10",
+    "anthropic>=0.25",
+    "pyyaml>=6.0",
+    "scikit-learn>=1.4",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest-cov>=4.1",
+    "ruff>=0.1",
+    "mypy>=1.5",
+]
+
+[project.scripts]
+dsbot = "dsbot.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["dsbot*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+select = ["E", "F", "I", "UP", "B"]
+exclude = [".venv", "outputs", "data", "scripts/generated"]
+# B008 is intentional for Typer CLI metadata; UP042 would change existing enum behavior.
+ignore = ["B008", "UP042"]
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
+files = ["dsbot"]
