@@ -1,0 +1,19 @@
+{
+  "id": "mock-email-015",
+  "category": "important",
+  "sender": "director@company.example",
+  "to": [
+    "analyst@company.example"
+  ],
+  "subject": "Deadline moved to Friday",
+  "body": "The deliverable deadline is now Friday at 5 PM; please flag risks early.",
+  "headers": {
+    "Message-ID": "<mock-015@example.com>"
+  },
+  "attachments": [],
+  "received_at": "2026-10-23T16:00:00+00:00",
+  "thread_id": "thread-015",
+  "labels": [
+    "Needs Human Review"
+  ]
+}
